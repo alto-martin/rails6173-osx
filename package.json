@@ -1,6 +1,19 @@
 {
   "name": "rails6173",
   "private": true,
+	"version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alto-martin/rails6173-osx.git"
+  },
+	"scripts": {
+  "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+  "changelog:init": "conventional-changelog -o CHANGELOG.md",
+  "changelog:check": "conventional-changelog",
+  "changelog:init:angular": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+  "changelog:check:angular": "conventional-changelog -p angular",
+  "changelog:help": "conventional-changelog --help"
+	},
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
