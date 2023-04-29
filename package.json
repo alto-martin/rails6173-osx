@@ -1,7 +1,7 @@
 {
   "name": "rails6173",
   "private": true,
-	"version": "0.1.0",
+	"version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/alto-martin/rails6173-osx.git"
@@ -23,7 +23,6 @@
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
-  "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3"
   }

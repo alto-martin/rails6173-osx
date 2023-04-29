@@ -32,6 +32,9 @@ gem 'bcrypt_pbkdf', '>= 1.1.0'
 gem 'capistrano-rails-console', '~> 2.3.0', require: false
 gem 'capistrano-deploytags', '~> 1.0.0', require: false , group: :development
 
+# Use faker for seed data
+gem 'faker'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
